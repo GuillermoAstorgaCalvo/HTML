@@ -1,0 +1,182 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul,
+menu {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*Reset End*/
+body {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  background-color: #1a1d24;
+}
+svg {
+  fill: currentColor;
+  width: 12px;
+  height: 12px;
+}
+.wrapper {
+}
+
+.header,
+.main-menu,
+.tools-menu,
+.social-menu {
+  display: flex;
+}
+
+.header {
+  max-inline-size: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 89px;
+}
+.logo {
+  width: 88px;
+  height: auto;
+}
+.main-menu {
+  font-family: "Roboto Condensed", sans-serif;
+  gap: 50px;
+  text-transform: uppercase;
+}
+.tools-menu {
+  gap: 100px;
+}
+.hero-banner {
+  position: relative;
+  display: flex;
+}
+.hero-banner__image {
+  width: 100%;
+  max-height: 610px;
+  object-fit: cover;
+}
+.hero-banner__data {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.aside__title {
+  margin-bottom: 32px;
+}
