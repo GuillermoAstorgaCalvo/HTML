@@ -197,7 +197,7 @@ main {
 }
 .hero-banner__data {
   position: absolute;
-  bottom: 200;
+  bottom: 200px;
   right: 0;
   background-color: #1a1d24;
   max-width: 400px;
@@ -287,16 +287,16 @@ main {
   padding: 18px;
 }
 .slide1 {
-  background-image: url(images/post-19-copyright-485x598.jpg);
+  background-image: url(images/post-23-copyright-485x598.jpg);
 }
 .slide2 {
   background-image: url(images/post-19-copyright-485x598.jpg);
 }
 .slide3 {
-  background-image: url(images/post-19-copyright-485x598.jpg);
+  background-image: url(images/post-24-copyright-485x598.jpg);
 }
 .slide4 {
-  background-image: url(images/post-19-copyright-485x598.jpg);
+  background-image: url(images/post-20-copyright-485x598.jpg);
 }
 .slide5 {
   background-image: url(images/post-19-copyright-485x598.jpg);
