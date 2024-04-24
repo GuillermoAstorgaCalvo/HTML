@@ -262,6 +262,7 @@ main {
   gap: 20px;
   height: 300px;
 }
+
 .slider__slide {
   position: relative;
   display: flex;
@@ -285,6 +286,16 @@ main {
 }
 .slider__slide > div {
   padding: 18px;
+}
+.sliderin {
+  display: flex;
+  gap: 4px;
+}
+.sliderin a {
+  font-family: "Roboto", sans-serif;
+  color: #b8b8b8;
+  font-size: 12px;
+  text-transform: capitalize;
 }
 .slide1 {
   background-image: url(images/post-23-copyright-485x598.jpg);
