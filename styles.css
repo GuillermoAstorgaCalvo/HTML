@@ -234,6 +234,19 @@ main {
   margin-block: 22px;
 }
 
+.hero-banner__link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero-banner__link svg {
+  display: inline-block;
+  width: 17px;
+  height: 12px;
+  stroke: red;
+}
+
 .aside {
   width: 25%;
 }
