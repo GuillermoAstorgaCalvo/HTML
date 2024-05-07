@@ -256,6 +256,14 @@ main {
   text-transform: uppercase;
   font-size: 17px;
   margin-bottom: 32px;
+  gap: 10px;
+}
+
+.aside__title svg {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  stroke: red;
 }
 
 .aside__list {
