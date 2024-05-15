@@ -20,6 +20,7 @@ abbr,
 acronym,
 address,
 big,
+button,
 cite,
 code,
 del,
@@ -192,6 +193,20 @@ main {
   color: #969696;
 }
 
+.underline-red {
+  position: relative;
+}
+
+.underline-red::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -13px;
+  width: 103%;
+  height: 1px;
+  background-color: red;
+}
+
 .tools-menu > :last-child:before {
   content: " | ";
   padding-right: 20px;
@@ -199,6 +214,9 @@ main {
   color: #969696;
 }
 
+.search:hover {
+  cursor: pointer;
+}
 .social-menu {
   gap: 26px;
 }
@@ -248,6 +266,12 @@ main {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+.hero-banner__link.active,
+.hero-banner__link:hover {
+  color: #e0041d;
+  transition-duration: 0.3s;
+}
+
 .hero-banner__link svg {
   display: inline-block;
   width: 17px;
@@ -288,15 +312,27 @@ main {
   gap: 20px;
 }
 
-.aside__subtitle {
+.aside__subtitle a {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 16px;
   margin-bottom: 4px;
 }
 
+.aside__subtitle.active,
+.aside__subtitle:hover a {
+  color: #a8a8a8;
+  transition-duration: 0.3s;
+}
+
 .aside__date a {
   color: #a8a8a8;
   font-size: 11px;
+}
+
+.aside__date.active,
+.aside__date:hover a {
+  color: #ffffff;
+  transition-duration: 0.3s;
 }
 
 .slider-films {
@@ -316,6 +352,17 @@ main {
   text-transform: uppercase;
   font-size: 13px;
   letter-spacing: 1.1px;
+}
+
+.slider-films__button.active,
+.slider-films__button:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.slider-films__button:not(:last-child):after {
+  content: "/";
+  padding-inline: 20px;
 }
 
 .slider {
@@ -346,6 +393,7 @@ main {
 
 .slider__slide:hover svg {
   border: 2px solid rgb(255, 255, 255);
+  cursor: pointer;
 }
 
 .slider__slide > div {
@@ -382,4 +430,180 @@ main {
 
 .slide5 {
   background-image: url(images/post-19-copyright-485x598.jpg);
+}
+
+.circle-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin-right: 10px; /* Adjust as needed */
+  transition: background-color 0.3s ease;
+}
+
+.circle:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+.bg-image {
+  background-image: url(images/bg_samurai.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 80px;
+}
+
+.bg-image::before {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 80px;
+  background-color: #ffffff;
+  position: absolute;
+  top: -80px;
+}
+
+.releases {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  min-height: 511px;
+  color: #1a1d24;
+}
+
+.releases__article {
+  width: 50%;
+}
+
+.releases__title {
+  gap: 34px;
+  font-family: "Roboto Condensed";
+  font-size: 13px;
+  color: #737373;
+  text-transform: uppercase;
+}
+
+.releases__title::before {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 48px;
+  top: 100px;
+  position: absolute;
+  text-align: left;
+  background-color: #e0041d;
+}
+
+.releases__subtitle {
+  gap: 34px;
+  font-family: "Roboto Condensed";
+  font-size: 2.313rem;
+  letter-spacing: -0.3px;
+  margin-top: 0.7em;
+  color: #1a1d24;
+  line-height: 1.2em;
+  text-transform: uppercase;
+}
+
+.releases__info {
+  color: #1a1d24;
+  letter-spacing: 0.1px;
+  font-size: 13px;
+  font-family: "Roboto Condensed", sans-serif;
+  display: block;
+  margin-block-start: 2.33em;
+  margin-block-end: 2.33em;
+  text-transform: uppercase;
+  in
+}
+
+.margin-left__releases-info {
+  margin-left: 24px;
+}
+
+.releases__description {
+  font-size: 0.938em;
+  line-height: 1.1em;
+  color: #737373;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+.releases__links-container {
+  display: flex;
+  align-items: left;
+}
+
+.releases__link-1 {
+  color: #e0041d;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-family: "Roboto Condensed";
+  font-size: 13px;
+}
+
+.releases__link-1-arrow {
+  width: 13px;
+  height: 13px;
+}
+
+.releases__link-1-margin {
+  margin-left: 10px;
+}
+
+.releases__links-margin {
+  padding-inline: 17px;
+}
+
+.releases__link-2 {
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-family: "Roboto Condensed";
+  font-size: 13px;
+  padding-inline: 8px;
+}
+
+.releases__link-2-play {
+  width: 14px;
+  height: 14px;
+}
+
+.movies {
+  display: flex;
+}
+
+.movies__article {
+  position: relative;
+}
+
+.movies__image {
+  width: 100%;
+  height: auto;
+}
+
+.movies__image::after {
+  content: lineal-gradient(transparent 50%, #000000);
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.movies__data {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 1em 2.38em 0;
+  margin-bottom: 3.1em;
 }
