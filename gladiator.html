@@ -6,17 +6,21 @@
     <title>Página Filmax</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles__gladiator.css" />
   </head>
   <body>
     <div class="background">
-      <header class="header wrapper">
+      <header class="header__gladiator wrapper">
         <a href="index.html"
           ><img
             src="images/logo-1x.png"
@@ -147,416 +151,177 @@
           </ul>
         </div>
       </header>
+      <div class="main-title__container">
+        <h1 class="main-title">Gladiator</h1>
+        <menu class="main-title__menu">
+          <li><a href="">Home</a></li>
+          <li><a href="">All posts</a></li>
+          <li><a href="">Action</a></li>
+          <li><a href="">Gladiator</a></li>
+        </menu>
+      </div>
     </div>
-    <main class="main__index">
-      <div class="background">
-        <section class="hero-banner wrapper">
-          <img src="images/top-promo.jpg" alt="" class="hero-banner__image" />
-          <div class="hero-banner__data">
-            <p class="hero-banner__title">TYLER PERRY'S MADEA HALLOWEEN</p>
-            <p class="hero-banner__description">
-              Perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium
-            </p>
-            <a href="#" class="hero-banner__link">
-              Read more
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 24">
-                <path
-                  style="fill: #232326"
-                  d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z"
-                  data-name="Right"
-                />
-              </svg>
-            </a>
-          </div>
-          <aside class="aside">
-            <h2 class="aside__title">Recent news</h2>
-            <ul class="aside__list">
-              <li class="aside__item">
-                <a href=""
-                  ><img
-                    src="images/post-6-copyright-97x81.jpg"
-                    alt=" "
-                    class="aside__image"
-                /></a>
-                <div>
-                  <h3 class="aside__subtitle">
-                    <a href="">
-                      Attending ‘Star Wars’ Screening in ‘Star Trek’ Costume
-                    </a>
-                  </h3>
-                  <time class="aside__date"><a href="">DEC 15, 2017</a></time>
+      <div class="container">
+
+        <!--------------MAIN START-------------->
+
+    <main class="main__gladiator">
+
+      <!------HERO BANNER START------>
+        <section class="hero-banner__gladiator">
+            <img src="images/post-29-copyright-1600x1066.jpg" alt="Gladiator" />
+            <div class="meta">
+                <span class="meta-category"><a href="#">ACTION</a>, <a href="#">ADVENTURE</a></span>
+                <span class="meta-date">ON JUN 28, 2017</span>
+                <span class="meta-views">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="#000000">
+                        <path d="M12 4.5c-7 0-10 7.5-10 7.5s3 7.5 10 7.5 10-7.5 10-7.5-3-7.5-10-7.5zm0 13c-3.1 0-5.5-2.4-5.5-5.5s2.4-5.5 5.5-5.5 5.5 2.4 5.5 5.5-2.4 5.5-5.5 5.5zm0-9c-1.9 0-3.5 1.6-3.5 3.5s1.6 3.5 3.5 3.5 3.5-1.6 3.5-3.5-1.6-3.5-3.5-3.5zm0 5c-.8 0-1.5-.7-1.5-1.5s.7-1.5 1.5-1.5 1.5.7 1.5 1.5-.7 1.5-1.5 1.5z"/>
+                    </svg>
+                    3059</span>
+                <span class="meta-likes">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="#000000">
+                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                </svg>
+                3</span>
+                <span class="meta-comments">
+                    <svg width="800px" height="800px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+                        <title>comment-2</title>
+                        <desc>Created with Sketch Beta.</desc>
+                        <defs>
+                        </defs>
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                        <g id="Icon-Set" sketch:type="MSLayerGroup" transform="translate(-152.000000, -255.000000)" fill="#000000">
+                        <path d="M168,281 C166.832,281 165.704,280.864 164.62,280.633 L159.912,283.463 L159.975,278.824 C156.366,276.654 154,273.066 154,269 C154,262.373 160.268,257 168,257 C175.732,257 182,262.373 182,269 C182,275.628 175.732,281 168,281 L168,281 Z M168,255 C159.164,255 152,261.269 152,269 C152,273.419 154.345,277.354 158,279.919 L158,287 L165.009,282.747 C165.979,282.907 166.977,283 168,283 C176.836,283 184,276.732 184,269 C184,261.269 176.836,255 168,255 L168,255 Z M175,266 L161,266 C160.448,266 160,266.448 160,267 C160,267.553 160.448,268 161,268 L175,268 C175.552,268 176,267.553 176,267 C176,266.448 175.552,266 175,266 L175,266 Z M173,272 L163,272 C162.448,272 162,272.447 162,273 C162,273.553 162.448,274 163,274 L173,274 C173.552,274 174,273.553 174,273 C174,272.447 173.552,272 173,272 L173,272 Z" id="comment-2" sketch:type="MSShapeGroup">
+                        </path>
+                         </g>
+                        </g>
+                    </svg>
+                 0</span>     
+            </div>
+        </section>
+
+        <!------MAIN VIDEO START------>
+
+            <section class="main-video__gladiator">
+              <div class="video-container">
+                  <iframe src="https://player.vimeo.com/video/154709932" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+              </div>
+              <p class="video-description">
+                  <a href=""><strong>NEW YORK timelapse</strong></a> from <a href="#">dimid</a> on <a href="#">Vimeo</a>.
+              </p>
+              <div class="tags-social__gladiator">
+                <p class="video-tags"><strong>TAGS:</strong> <a href="#">shows,</a> <a href="#">trailers</a></p>
+                <div class="social-icons">
+                  <a href="#" class="social-icon twitter"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256">
+<g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M50.0625,10.4375c-1.84766,0.82031 -3.82812,1.37109 -5.91016,1.62109c2.125,-1.27344 3.75781,-3.28906 4.52344,-5.6875c-1.98437,1.17578 -4.19141,2.03125 -6.53125,2.49219c-1.875,-2 -4.54687,-3.24609 -7.50391,-3.24609c-5.67969,0 -10.28516,4.60156 -10.28516,10.28125c0,0.80469 0.09375,1.58984 0.26953,2.34375c-8.54687,-0.42969 -16.12109,-4.52344 -21.19531,-10.74609c-0.88672,1.52344 -1.39062,3.28906 -1.39062,5.17187c0,3.56641 1.8125,6.71484 4.57422,8.5625c-1.6875,-0.05469 -3.27344,-0.51953 -4.66016,-1.28906c0,0.04297 0,0.08594 0,0.12891c0,4.98438 3.54688,9.13672 8.24609,10.08594c-0.85937,0.23438 -1.76953,0.35938 -2.70703,0.35938c-0.66406,0 -1.30859,-0.0625 -1.9375,-0.1875c1.3125,4.08203 5.10938,7.0625 9.60547,7.14453c-3.51562,2.75781 -7.94922,4.39844 -12.76953,4.39844c-0.83203,0 -1.64844,-0.04687 -2.44922,-0.14453c4.54687,2.92188 9.95312,4.62109 15.76172,4.62109c18.91406,0 29.25781,-15.66797 29.25781,-29.25391c0,-0.44531 -0.01172,-0.89453 -0.02734,-1.33203c2.00781,-1.44922 3.75,-3.26172 5.12891,-5.32422z"></path></g></g>
+</svg></a>
+                  <a href="#" class="social-icon facebook"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256">
+<g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(8.53333,8.53333)"><path d="M12,27v-12h-4v-4h4v-2.148c0,-4.067 1.981,-5.852 5.361,-5.852c1.619,0 2.475,0.12 2.88,0.175v3.825h-2.305c-1.435,0 -1.936,0.757 -1.936,2.291v1.709h4.205l-0.571,4h-3.634v12z"></path></g></g>
+</svg></a>
+                  <a href="#" class="social-icon email"><svg fill="#ffffff" height="800px" width="800px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 75.294 75.294" xml:space="preserve">
+
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+<g id="SVGRepo_iconCarrier"> <g> <path d="M66.097,12.089h-56.9C4.126,12.089,0,16.215,0,21.286v32.722c0,5.071,4.126,9.197,9.197,9.197h56.9 c5.071,0,9.197-4.126,9.197-9.197V21.287C75.295,16.215,71.169,12.089,66.097,12.089z M61.603,18.089L37.647,33.523L13.691,18.089 H61.603z M66.097,57.206h-56.9C7.434,57.206,6,55.771,6,54.009V21.457l29.796,19.16c0.04,0.025,0.083,0.042,0.124,0.065 c0.043,0.024,0.087,0.047,0.131,0.069c0.231,0.119,0.469,0.215,0.712,0.278c0.025,0.007,0.05,0.01,0.075,0.016 c0.267,0.063,0.537,0.102,0.807,0.102c0.001,0,0.002,0,0.002,0c0.002,0,0.003,0,0.004,0c0.27,0,0.54-0.038,0.807-0.102 c0.025-0.006,0.05-0.009,0.075-0.016c0.243-0.063,0.48-0.159,0.712-0.278c0.044-0.022,0.088-0.045,0.131-0.069 c0.041-0.023,0.084-0.04,0.124-0.065l29.796-19.16v32.551C69.295,55.771,67.86,57.206,66.097,57.206z"/> </g> </g>
+
+</svg></a>
                 </div>
-              </li>
-              <li class="aside__item">
-                <a href=""
-                  ><img
-                    src="images/post-5-copyright-97x81.jpg"
-                    alt=""
-                    class="aside__image"
-                /></a>
-                <div>
-                  <h3 class="aside__subtitle">
-                    <a href="">
-                      Reuniting at the 2018 Coachella Music Festival
-                    </a>
-                  </h3>
-                  <time class="aside__date"><a href="">DEC 12, 2017</a></time>
-                </div>
-              </li>
-              <li class="aside__item">
-                <a href=""
-                  ><img
-                    src="images/post-12-copyright-97x81.jpg"
-                    alt=""
-                    class="aside__image"
-                /></a>
-                <div>
-                  <h3 class="aside__subtitle">
-                    <a href="">
-                      ‘Titanic’, ‘Goonies’ Named National Film Treasures
-                    </a>
-                  </h3>
-                  <time class="aside__date"><a href="">DEC 8, 2017</a></time>
-                </div>
-              </li>
+              </div>
+            </section>
+
+            <!------PAGE SELECTOR START------>
+
+            <section class="page-selector__gladiator">
+              <div class="previous-post">
+                <a href="#">
+                  <span class="post-label">PREVIOUS POST:</span>
+                  <span class="post-title"><span class="arrow">←</span> Band of Brothers</span>
+                </a>
+              </div>
+              <div class="next-post">
+                <a href="#">
+                  <span class="post-label">NEXT POST:</span>
+                  <span class="post-title">Pirates Bay <span class="arrow">→</span></span>
+                </a>
+              </div>
+    </section>
+
+        </main>
+
+        <!----------------ASIDE START---------------->
+
+        <aside class="sidebar">
+        <section class="box socials">
+            <h2 class="aside-title__gladiator">Socials</h2>
+            <a href="#" class="social-btn__aside facebook__aside">
+                <span class="icon-text__aside"><span class="icon__aside"></span> FACEBOOK</span>
+                <span class="follow__aside">FOLLOW</span></a>
+            <a href="#" class="social-btn__aside twitter__aside">
+                <span class="icon-text__aside"><span class="icon__aside"></span> TWITTER</span>
+                <span class="follow__aside">FOLLOW</span></a>
+            <a href="#" class="social-btn__aside youtube__aside">
+                <span class="icon-text__aside"><span class="icon__aside"></span> YOUTUBE</span>
+                <span class="follow__aside">FOLLOW</span></a>
+            </section>
+        <section class="box recent-news">
+            <h2 class="aside-title__gladiator">Recent News</h2>
+            <ul class="news-list__gladiator">
+                <li class="news-item__gladiator">
+                    <a href=""><img src="images/post-6-copyright-97x81.jpg" alt=" " class="news-image__gladiator" /></a>
+                    <div>
+                        <h3 class="news-subtitle__gladiator"><a href="">Attending ‘Star Wars’ Screening in ‘Star Trek’ Costume</a></h3>
+                        <time class="news-date__gladiator"><a href="">ON DEC 15, 2017</a></time>
+                    </div>
+                </li>
+                <li class="news-item__gladiator">
+                    <a href=""><img src="images/post-5-copyright-97x81.jpg" alt="" class="news-image__gladiator" /></a>
+                    <div>
+                        <h3 class="news-subtitle__gladiator"><a href="">Reuniting at the 2018 Coachella Music Festival</a></h3>
+                        <time class="news-date__gladiator"><a href="">ON DEC 12, 2017</a></time>
+                    </div>
+                </li>
+                <li class="news-item__gladiator">
+                    <a href=""><img src="images/post-12-copyright-97x81.jpg" alt="" class="news-image__gladiator" /></a>
+                    <div>
+                        <h3 class="news-subtitle__gladiator"><a href="">‘Titanic’, ‘Goonies’ Named National Film Treasures</a></h3>
+                        <time class="news-date__gladiator"><a href="">ON DEC 8, 2017</a></time>
+                    </div>
+                </li>
+                <li class="news-item__gladiator">
+                    <a href=""><img src="images/post-3-copyright-97x81.jpg" alt="" class="news-image__gladiator" /></a>
+                    <div>
+                        <h3 class="news-subtitle__gladiator"><a href="">9 Films are Vying for Foreign Oscar Nomination</a></h3>
+                        <time class="news-date__gladiator"><a href="">ON DEC 4, 2017</a></time>
+                    </div>
+                </li>
             </ul>
-          </aside>
         </section>
-      </div>
-      <section class="slider-films wrapper">
-        <div class="slider-films__buttons">
-          <button class="slider-films__button">Recent trailers</button>
-          <button class="slider-films__button">Most popular</button>
-          <button class="slider-films__button">Best</button>
-        </div>
-        <article class="slider">
-          <div class="slider__slide slide1">
-            <svg
-              height="12px"
-              id="Layer_1"
-              style="enable-background: new 0 0 512 512"
-              version="1.1"
-              viewBox="0 0 512 512"
-              width="12px"
-              xml:space="preserve"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-            >
-              <path
-                d="M405.2,232.9L126.8,67.2c-3.4-2-6.9-3.2-10.9-3.2c-10.9,0-19.8,9-19.8,20H96v344h0.1c0,11,8.9,20,19.8,20  c4.1,0,7.5-1.4,11.2-3.4l278.1-165.5c6.6-5.5,10.8-13.8,10.8-23.1C416,246.7,411.8,238.5,405.2,232.9z"
-              />
-            </svg>
-            <div>
-              <h3><a href="">Sranger things</a></h3>
-              <div class="sliderin">
-                <a href="">Comedy,</a><a href="">Drama,</a
-                ><a href="">Thriller</a>
-              </div>
+        <section class="box top-trailers">
+            <h2 class="aside-title__gladiator">Top Trailers</h2>
+            <article class="trailer">
+            <img src="images/post-28-copyright-449x258.jpg" alt="Trailer 1" class="trailer-image">
+            <div class="trailer-meta">
+                <span class="trailer-category">TOP TRAILERS</span>
+                <span class="trailer-date">ON JUL 10, 2017</span>
             </div>
-          </div>
-          <div class="slider__slide slide2">
-            <svg
-              height="12px"
-              id="Layer_1"
-              style="enable-background: new 0 0 512 512"
-              version="1.1"
-              viewBox="0 0 512 512"
-              width="12px"
-              xml:space="preserve"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-            >
-              <path
-                d="M405.2,232.9L126.8,67.2c-3.4-2-6.9-3.2-10.9-3.2c-10.9,0-19.8,9-19.8,20H96v344h0.1c0,11,8.9,20,19.8,20  c4.1,0,7.5-1.4,11.2-3.4l278.1-165.5c6.6-5.5,10.8-13.8,10.8-23.1C416,246.7,411.8,238.5,405.2,232.9z"
-              />
-            </svg>
-            <div>
-              <h3><a href="">The injustice</a></h3>
-              <div class="sliderin">
-                <a href="">Comedy,</a><a href="">Drama,</a
-                ><a href="">Thriller</a>
-              </div>
-            </div>
-          </div>
-          <div class="slider__slide slide3">
-            <svg
-              height="12px"
-              id="Layer_1"
-              style="enable-background: new 0 0 512 512"
-              version="1.1"
-              viewBox="0 0 512 512"
-              width="12px"
-              xml:space="preserve"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-            >
-              <path
-                d="M405.2,232.9L126.8,67.2c-3.4-2-6.9-3.2-10.9-3.2c-10.9,0-19.8,9-19.8,20H96v344h0.1c0,11,8.9,20,19.8,20  c4.1,0,7.5-1.4,11.2-3.4l278.1-165.5c6.6-5.5,10.8-13.8,10.8-23.1C416,246.7,411.8,238.5,405.2,232.9z"
-              />
-            </svg>
-            <div>
-              <h3><a href="">Geostorm</a></h3>
-              <div class="sliderin">
-                <a href="">Comedy,</a><a href="">Drama,</a
-                ><a href="">Thriller</a>
-              </div>
-            </div>
-          </div>
-          <div class="slider__slide slide4">
-            <svg
-              height="12px"
-              id="Layer_1"
-              style="enable-background: new 0 0 512 512"
-              version="1.1"
-              viewBox="0 0 512 512"
-              width="12px"
-              xml:space="preserve"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-            >
-              <path
-                d="M405.2,232.9L126.8,67.2c-3.4-2-6.9-3.2-10.9-3.2c-10.9,0-19.8,9-19.8,20H96v344h0.1c0,11,8.9,20,19.8,20  c4.1,0,7.5-1.4,11.2-3.4l278.1-165.5c6.6-5.5,10.8-13.8,10.8-23.1C416,246.7,411.8,238.5,405.2,232.9z"
-              />
-            </svg>
-            <div>
-              <h3><a href="">Happy death day</a></h3>
-              <div class="sliderin">
-                <a href="">Comedy,</a><a href="">Drama,</a
-                ><a href="">Thriller</a>
-              </div>
-            </div>
-          </div>
-          <div class="slider__slide slide5">
-            <svg
-              height="12px"
-              id="Layer_1"
-              style="enable-background: new 0 0 512 512"
-              version="1.1"
-              viewBox="0 0 512 512"
-              width="12px"
-              xml:space="preserve"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-            >
-              <path
-                d="M405.2,232.9L126.8,67.2c-3.4-2-6.9-3.2-10.9-3.2c-10.9,0-19.8,9-19.8,20H96v344h0.1c0,11,8.9,20,19.8,20  c4.1,0,7.5-1.4,11.2-3.4l278.1-165.5c6.6-5.5,10.8-13.8,10.8-23.1C416,246.7,411.8,238.5,405.2,232.9z"
-              />
-            </svg>
-            <div>
-              <h3><a href="">Gotham</a></h3>
-              <div class="sliderin">
-                <a href="">Comedy,</a><a href="">Drama,</a
-                ><a href="">Thriller</a>
-              </div>
-            </div>
-          </div>
+            <h3 class="trailer-title">THE BIGGEST LIVE SHOW FAILURE OF THE LAST YEAR</h3>
         </article>
-        <div class="circle-container">
-          <button><div class="circle"></div></button>
-          <button><div class="circle"></div></button>
-          <button><div class="circle"></div></button>
-          <button><div class="circle"></div></button>
-          <button><div class="circle"></div></button>
-          <button><div class="circle"></div></button>
-        </div>
-      </section>
-      <div class="bg-image">
-        <section class="releases wrapper">
-          <article class="releases__article">
-            <h2 class="releases__title">New Releases</h2>
-            <h3 class="releases__subtitle">The last samurai</h3>
-            <div class="releases__info">
-              <span>HBO Series</span
-              ><span class="margin-left__releases-info">2 seasons</span>
+        <article class="trailer">
+            <img src="images/post-29-copyright-449x258.jpg" alt="Trailer 2" class="trailer-image">
+            <div class="trailer-meta">
+                <span class="trailer-category">TOP TRAILERS</span>
+                <span class="trailer-date">ON JUL 6, 2017</span>
             </div>
-            <p class="releases__description">
-              The Last Samurai is a 2003 American epic period drama war film
-              directed and co-produced by Edward Zwick, who also co-wrote the
-              screenplay with John Logan and Marshall Herskovitz. The film stars
-              Tom Cruise, who also co-produced.
-            </p>
-            <div class="releases__actions">
-              <div class="releases__link-1-container">
-                <svg
-                  class="releases__link-1-icon"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 25 25"
-                >
-                  <path
-                    style="fill: #e0041d"
-                    d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z"
-                    data-name="Right"
-                  />
-                </svg>
-                <a href="" class="releases__link-1">View more information</a>
-              </div>
-              <div class="releases__link-2-container">
-                <svg
-                  class="releases__link-2-icon"
-                  version="1.1"
-                  id="svg2"
-                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                  xmlns:cc="http://creativecommons.org/ns#"
-                  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-                  xmlns:svg="http://www.w3.org/2000/svg"
-                  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-                  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-                  sodipodi:docname="play-circle.svg"
-                  inkscape:version="0.48.4 r9939"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  width="800px"
-                  height="800px"
-                  viewBox="0 0 1200 1200"
-                  enable-background="new 0 0 1200 1200"
-                  xml:space="preserve"
-                >
-                  <path
-                    id="path17111"
-                    inkscape:connector-curvature="0"
-                    d="M600,0C268.65,0,0,268.65,0,600c0,331.35,268.65,600,600,600
-	c331.35,0,600-268.65,600-600C1200,268.65,931.35,0,600,0z M600,139.16c254.499,0,460.84,206.341,460.84,460.84
-	S854.499,1060.84,600,1060.84S139.16,854.499,139.16,600S345.501,139.16,600,139.16z M450,300.439V899.56L900,600L450,300.439z"
-                  />
-                </svg>
-                <a href="" class="releases__link-2">Watch trailer</a>
-                </div>
-              </div>
-            </div>
-          </article>
+            <h3 class="trailer-title">TOP ACTORS THAT HAVE BEEN FIRED FROM SHOWS</h3>
+        </article>
+                </li>
+            </ul>
         </section>
+    </aside>
       </div>
-      <!-- 4 MOVIES ARTICLE-->
-      <section class="movies">
-        <article class="movies__article">
-          <img
-            src="images/post-27-copyright-485x665.jpg"
-            alt=""
-            class="movie__image"
-          />
-          <div class="movies__data">
-            <h3 ><a class="movies__title" href="">Inferno</a></h3>
-            <a href="" class="movies__genre">Adventure</a>
-            <div class="movies__actions">
-              <a href="" class="movies__link1">Watch trailer</a>
-              <a href="" class="movies__link2">More information</a>
-            </div>
-          </div>
-        </article>
-        <article class="movies__article">
-          <img
-            src="images/post-25-copyright-485x665.jpg"
-            alt=""
-            class="movie__image"
-          />
-          <div class="movies__data">
-            <h3 ><a class="movies__title" href="">Band of brothers</a></h3>
-            <a href="" class="movies__genre">Adventure</a>
-            <div class="movies__actions">
-              <a href="" class="movies__link1">Watch trailer</a>
-              <a href="" class="movies__link2">More information</a>
-            </div>
-          </div>
-        </article>
-        <article class="movies__article">
-          <img
-            src="images/post-23-copyright-485x665.jpg"
-            alt=""
-            class="movie__image"
-          />
-          <div class="movies__data">
-            <h3 ><a class="movies__title" href="">Pirates bay</a></h3>
-            <a href="" class="movies__genre">Action</a>
-            <a href="" class="movies__genre">Adventure</a>
-            <div class="movies__actions">
-              <a href="" class="movies__link1">Watch trailer</a>
-              <a href="" class="movies__link2">More information</a>
-            </div>
-          </div>
-        </article>
-        <article class="movies__article">
-          <img
-            src="images/post-29-copyright-485x665.jpg"
-            alt=""
-            class="movie__image"
-          />
-          <div class="movies__data">
-            <h3 ><a class="movies__title" href="/gladiator.html">Gladiator</a></h3>
-            <a href="/gladiator.html" class="movies__genre">Action</a>
-            <a href="/gladiator.html" class="movies__genre">Adventure</a>
-            <div class="movies__actions">
-              <a href="" class="movies__link1">Watch trailer</a>
-              <a href="" class="movies__link2">More information</a>
-            </div>
-          </div>
-        </article>
-      </section>
-      <section class="opinions">
-        <div class="testimonial-section">
-        <div class="testimonial">
-          <img src="images/1test-copyright-105x105.jpg" alt="Martin Moore">
-          <p>“ I appreciate the high quality of your products guys! ”</p>
-          <h3>MARTIN MOORE</h3>
-          <span>Film Expert</span>
-        </div>
-        <div class="testimonial">
-          <img src="images/2test-copyright-105x105.jpg" alt="Andrea Garcia">
-          <p>“ Everything is great about this website, we liked it. ”</p>
-          <h3>ANDREA GARCIA</h3>
-          <span>Film Expert</span>
-        </div>
-        <div class="testimonial">
-          <img src="images/3test-copyright-105x105.jpg" alt="Mike Stevens">
-          <p>“ This was fun for all of my friends. Thank you so much! ”</p>
-          <h3>MIKE STEVENS</h3>
-          <span>Film Expert</span>
-        </div>
-    </div>
-      </section>
-      <section class="blog wrapper">
-        <h2 class="blog__title">Latest news</h2>
-        <p class="blog__description">Stay tuned for all the latest entertainment news and TV premiers
-        </p>
-        <div class="blog__grid">
-          <article class="blog__article article1">
-            <p class="blog__article-category">Home grid, news & updates</p>
-            <h3 class="blog__article-title">9 Films are vying for foreign oscar nomination</h3>
-            <div class="blog__article-data">
-              <time class="blog__article-date">On dec 4, 2017</time>
-              <a href=""><span class="blog__article-comments"></span></a><a href=""><span class="blog__article-favs"></span></a>
-            </div>
-          </article>
-          <article class="blog__article article2">
-            <p class="blog__article-category">Home grid, news & updates</p>
-            <h3 class="blog__article-title">‘Titanic’, ‘Goonies’ named national film treasures</h3>
-            <div class="blog__article-data">
-              <time class="blog__article-date">On dec 8, 2017</time>
-              <a href=""><span class="blog__article-comments"></span></a>
-            </div>
-          </article>
-          <article class="blog__article article3">
-            <p class="blog__article-category">Home grid, news & updates</p>
-            <h3 class="blog__article-title">Reuniting at the 2018 coachella music festival</h3>
-            <div class="blog__article-data">
-              <time class="blog__article-date">On dec 12, 2017</time>
-              <a href=""><span class="blog__article-comments"></span></a>
-            </div>
-          </article>
-          <article class="blog__article article4">
-            <p class="blog__article-category">Home grid, news & updates</p>
-            <h3 class="blog__article-title">Attending ‘star Wars’ screening in ‘star Trek’ costume</h3>
-            <div class="blog__article-data">
-              <time class="blog__article-date">On dec 15, 2017</time>
-              <a href=""><span class="blog__article-comments"></span></a><a href=""><span class="blog__article-favs"></span></a>
-            </div>
-          </article>
-        </div>
-      </section>
     </main>
-
-    <!------FOOTER START------>
-
     <footer class="footer__gladiator">
         <div class="footer-container">
             <div class="footer-logo">
@@ -608,12 +373,5 @@
             </div>
         </div>
     </footer>
-    <aside class="asidebar">
-      <ul class="asidebar__container">
-        <li class="asidebar__item">cart</li>
-        <li class="asidebar__item">imgs</li>
-        <li class="asidebar__item">web</li>
-      </ul>
-    </aside>
   </body>
 </html>
